@@ -1,6 +1,6 @@
 package GoogleMapsAPI;
 
-import Files.payload;
+import Payloads.payload;
 import Utilities.reUsables;
 import io.restassured.RestAssured;
 import org.testng.Assert;

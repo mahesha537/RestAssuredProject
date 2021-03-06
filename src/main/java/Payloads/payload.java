@@ -1,4 +1,4 @@
-package Files;
+package Payloads;
 
 public class payload {
     public static String AddPlace(){
@@ -71,6 +71,15 @@ public class payload {
                 "\n" +
                 "]\n" +
                 "\n" +
+                "}";
+    }
+    public  static String addBook(String author,String isbn){
+        return "{\n" +
+                "\n" +
+                "\"name\":\"Learn Automation with Java\",\n" +
+                "\"isbn\":\""+isbn+"\",\n" +
+                "\"aisle\":\"227\",\n" +
+                "\"author\":\""+author+"\"\n" +
                 "}";
     }
 }
