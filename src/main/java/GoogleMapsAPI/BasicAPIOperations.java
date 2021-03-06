@@ -1,3 +1,5 @@
+package GoogleMapsAPI;
+
 import Files.payload;
 import Utilities.reUsables;
 import io.restassured.RestAssured;
@@ -6,7 +8,7 @@ import org.testng.Assert;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class Basics {
+public class BasicAPIOperations {
     public static void main(String[] args) {
 //        Add Place for Google Maps API
       /*  given: all input details
